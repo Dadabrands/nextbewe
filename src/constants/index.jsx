@@ -168,3 +168,59 @@ export const communityLinks = [
   { href: "#", text: "Customer Support" },
 ];
 export const privacyLinks = [{ href: "#", text: "Privacy Policy" }];
+export const BlogItems = [
+  {
+    id: 1,
+    imageSrc: "https://picsum.photos/800/800",
+    category: "Cost Effective Solutions",
+    date: "July 10, 2024",
+    link: "/page1",
+    description:
+      "Learn how cost-effective solutions can help you achieve your goals without breaking the bank.",
+  },
+  {
+    id: 2,
+    imageSrc: "https://picsum.photos/800/801",
+    category: "Access to Skilled Talents",
+    date: "July 15, 2024",
+    link: "/page2",
+    description:
+      "Explore ways to access skilled talents and enhance your project outcomes with the right expertise.",
+  },
+  {
+    id: 3,
+    imageSrc: "https://picsum.photos/800/802",
+    category: "Innovative Approaches",
+    date: "August 1, 2024",
+    link: "/page3",
+    description:
+      "Discover innovative approaches that can drive success and foster creativity in your endeavors.",
+  },
+  {
+    id: 4,
+    imageSrc: "https://picsum.photos/800/803",
+    category: "Expert Guidance",
+    date: "August 15, 2024",
+    link: "/page4",
+    description:
+      "Get expert guidance on how to navigate complex challenges and achieve your objectives effectively.",
+  },
+  {
+    id: 5,
+    imageSrc: "https://picsum.photos/800/804",
+    category: "Creative Solutions",
+    date: "September 1, 2024",
+    link: "/page5",
+    description:
+      "Uncover creative solutions that can provide unique perspectives and innovative problem-solving strategies.",
+  },
+  {
+    id: 6,
+    imageSrc: "https://picsum.photos/800/805",
+    category: "Strategic Planning",
+    date: "September 15, 2024",
+    link: "/page6",
+    description:
+      "Learn about strategic planning techniques that can help you set clear goals and achieve long-term success.",
+  },
+];

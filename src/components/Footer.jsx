@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex gap-5 px-9 py-4 mt-28 w-full bg-blue-950 max-md:flex-wrap max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <div className="flex gap-5 px-9 py-4 mt-4 w-full bg-blue-950 max-md:flex-wrap max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col my-auto">
         <div className="flex gap-2">
           <div className="text-2xl tracking-wide leading-8 text-white">
