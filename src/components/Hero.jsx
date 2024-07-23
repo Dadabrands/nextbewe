@@ -1,9 +1,6 @@
 import Herobg from "../assets/Herobg.png";
 // import { Link } from "react-router-dom";
 // import { useRef } from "react";
-import { Link } from "react-scroll";
-
-import Email from "./Email";
 
 const Hero = () => {
   return (

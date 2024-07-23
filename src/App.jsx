@@ -1,34 +1,33 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Workflow from "./components/Workflow";
-import Footer from "./components/Footer";
-import Faqs from "./components/Faqs";
-import Streamline from "./components/Streamline";
-import Email from "./components/Email";
-import WhatWeDo from "./components/WhatWeDo";
-import WhyAfrica from "./components/WhyAfrica";
-// import News from "./components/News";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import RemoteTeams from "./pages/RemoteTeams";
+import Careers from "./pages/Careers";
+import BuildOperateTransfer from "./pages/BuildOperateTransfer";
+import ManagedServices from "./pages/ManagedServices";
+import MarketEntryProgram from "./pages/MarketEntryProgram";
+import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+import Faqs from "./pages/Faqs";
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Hero />} />
-        {/* <Route path="/newsletter" element={<Email />} /> */}
-        {/* Add more routes if needed */}
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="remote-teams" element={<RemoteTeams />} />
+        <Route
+          path="build-operate-transfer"
+          element={<BuildOperateTransfer />}
+        />
+        <Route path="managed-services" element={<ManagedServices />} />
+        <Route path="market-entry-program" element={<MarketEntryProgram />} />
+        <Route path="careers" element={<Careers />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="faqs" element={<Faqs />} />
       </Routes>
-      <WhatWeDo />
-      <WhyAfrica />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <Workflow />
-        <Streamline />
-      </div>
-      <Faqs />
-      <Email />
-      <Footer />
     </Router>
   );
 };
