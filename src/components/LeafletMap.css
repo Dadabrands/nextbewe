@@ -1,0 +1,31 @@
+/* .leaflet-footer {
+  background-color: #a4afff;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+} */
+/* LeafletMap.css */
+
+.leaflet-footer {
+  background-color: #140083;
+  height: 100%;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .leaflet-footer {
+    height: 200px; /* Adjust as needed for mobile */
+  }
+}

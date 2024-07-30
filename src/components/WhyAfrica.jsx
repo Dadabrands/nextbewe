@@ -2,10 +2,10 @@ const WhyAfrica = () => {
   return (
     <section className="flex overflow-hidden justify-center items-center px-16 py-20 max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col mt-10 w-full max-w-[1339px] max-md:max-w-full">
-        <h2 className="self-center ml-24 text-8xl font-bold leading-6 text-blue-800 max-md:max-w-full max-md:text-4xl">
+        <h2 className="self-center text-6xl font-bold leading-6 text-blue-800 max-md:max-w-full max-md:text-4xl">
           Why Africa?
         </h2>
-        <div className="mt-12 max-md:mt-10 max-md:max-w-full">
+        <div className="mt-10 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
               <img

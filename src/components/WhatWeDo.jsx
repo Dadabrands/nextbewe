@@ -5,33 +5,34 @@ import LimitIcon from "../assets/LimitIcon.png";
 
 const WhatWeDo = () => {
   return (
-    <div className="relative overflow-hidden flex justify-center items-center px-16 py-20 w-full max-md:px-5 max-md:max-w-full">
+    <section className="relative overflow-hidden flex justify-center items-center px-16 py-20 w-full max-md:px-5 max-md:max-w-full">
       <img
         loading="lazy"
         srcSet={WhatWeDoBg}
         className="object-cover absolute inset-0 w-full h-full"
         style={{ zIndex: -1 }}
+        alt="Background"
       />
       <div className="flex flex-col mt-8 mb-8 w-full max-w-[1550px] max-md:mt-10 max-md:max-w-full">
-        <div className="self-center text-8xl tracking-widest text-textColor max-md:max-w-full max-md:text-4xl">
-          <span className="font-bold">What we do</span>
-        </div>
+        <header className="self-center text-6xl tracking-widest max-md:max-w-full max-md:text-4xl">
+          <h1 className="font-bold text-tertiary">What we do</h1>
+        </header>
         <div className="mt-12 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-10 max-md:flex-col max-md:gap-10">
-            <div className="flex flex-col w-[32%] h-auto max-md:w-full max-md:h-auto max-md:ml-0">
+            <article className="flex flex-col w-[32%] h-auto max-md:w-full max-md:h-auto max-md:ml-0">
               <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
-                <div className="flex flex-col px-8 py-10 bg-white rounded-xl border border-solid shadow-sm border-neutral-300 max-md:px-5 max-md:max-w-full">
+                <div className="flex flex-col px-8 py-10 bg-white rounded-xl border border-solid drop-shadow-lg shadow-black border-neutral-300 max-md:px-5 max-md:max-w-full">
                   <div className="flex justify-center">
                     <img
                       src={TeamIcon}
-                      alt=""
+                      alt="Team Icon"
                       className="shrink-0 w-20 aspect-square items-center"
                     />
                   </div>
-                  <div className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
+                  <h3 className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
                     We build your team
-                  </div>
-                  <div className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
+                  </h3>
+                  <p className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
                     <ul className="list-disc list-inside">
                       <li>
                         NextBẹwẹ can help you build customized remote teams.
@@ -41,63 +42,63 @@ const WhatWeDo = () => {
                         follow-up later to ensure your goals are met on time.
                       </li>
                     </ul>
-                  </div>
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-col w-[32%] h-auto max-md:w-full max-md:h-auto max-md:ml-0">
+            </article>
+            <article className="flex flex-col w-[32%] h-auto max-md:w-full max-md:h-auto max-md:ml-0">
               <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
-                <div className="flex flex-col px-8 py-10 bg-white rounded-xl border border-solid shadow-sm border-neutral-300 max-md:px-5 max-md:max-w-full">
+                <div className="flex flex-col px-8 py-10 bg-white rounded-xl border border-solid drop-shadow-lg shadow-black border-neutral-300 max-md:px-5 max-md:max-w-full">
                   <div className="flex justify-center">
                     <img
                       src={OperationsIcon}
-                      alt=""
+                      alt="Operations Icon"
                       className="shrink-0 w-20 aspect-square items-center"
                     />
                   </div>
-                  <div className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
+                  <h3 className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
                     We run your operations
-                  </div>
-                  <div className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
+                  </h3>
+                  <p className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
                     <ul className="list-disc list-inside">
                       <li>We handle all your operational heavy lifting</li>
                       <li>
-                        you can have more time to focus on developing new
+                        You can have more time to focus on developing new
                         products and services.
                       </li>
                     </ul>
-                  </div>
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-col w-[32%] h-auto max-md:w-full max-md:h-auto max-md:ml-0">
+            </article>
+            <article className="flex flex-col w-[32%] h-auto max-md:w-full max-md:h-auto max-md:ml-0">
               <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
-                <div className="flex flex-col px-8 py-10 bg-white rounded-xl border border-solid shadow-sm border-neutral-300 max-md:px-5 max-md:max-w-full">
+                <div className="flex flex-col px-8 py-10 bg-white rounded-xl border border-solid drop-shadow-lg shadow-black border-neutral-300 max-md:px-5 max-md:max-w-full">
                   <div className="flex justify-center">
                     <img
                       src={LimitIcon}
-                      alt=""
+                      alt="Limit Icon"
                       className="shrink-0 w-20 aspect-square items-center"
                     />
                   </div>
-                  <div className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
+                  <h3 className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
                     You scale without limits
-                  </div>
-                  <div className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
+                  </h3>
+                  <p className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
                     <ul className="list-disc list-inside">
                       <li>
                         Quickly scale your team up or down according to your
                         business needs.
                       </li>
                     </ul>
-                  </div>
+                  </p>
                 </div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

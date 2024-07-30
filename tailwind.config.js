@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#00102A",
-        textColor: "#01498D",
+        tertiary: "#01498D",
         secondary: "#FF9933",
         footer: "#1E1E1E",
       },
