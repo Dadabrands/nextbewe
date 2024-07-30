@@ -1,4 +1,7 @@
 import WhatWeDoBg from "../assets/Whatwedobg.png";
+import costIcon from "../assets/cost.png";
+import diversityIcon from "../assets/diversity.png";
+import GlobalIcon from "../assets/Global.png";
 
 export const ValueForClient = () => {
   return (
@@ -17,22 +20,16 @@ export const ValueForClient = () => {
         </header>
         <div className="mt-20 max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <article className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
-                <div className="flex flex-col px-9 pt-10 pb-20 bg-white rounded-xl border border-solid drop-shadow-lg shadow-black  border-neutral-300 max-md:px-5 max-md:max-w-full">
-                  <h3 className="text-3xl font-bold text-center text-tertiary">
-                    Cost effective operations
-                  </h3>
-                  <p className="mt-14 mb-10 text-xl leading-10 text-neutral-600 max-md:my-10">
-                    Our every activity is strategically designed to prioritize
-                    cost savings, ensuring optimal results for our clients.
-                  </p>
-                </div>
-              </div>
-            </article>
             <article className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
                 <div className="flex flex-col px-10 py-9 bg-white rounded-xl border border-solid border-neutral-300 drop-shadow-lg shadow-black max-md:px-5 max-md:max-w-full">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src={GlobalIcon}
+                      alt="cost Icon"
+                      className="w-24 h-24"
+                    />
+                  </div>
                   <h3 className="self-center text-4xl font-bold text-center text-tertiary">
                     Global expertise
                   </h3>
@@ -45,9 +42,32 @@ export const ValueForClient = () => {
                 </div>
               </div>
             </article>
+            <article className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
+                <div className="flex flex-col px-9 pt-10 pb-20 bg-white rounded-xl border border-solid drop-shadow-lg shadow-black  border-neutral-300 max-md:px-5 max-md:max-w-full">
+                  <div className="flex justify-center mb-4">
+                    <img src={costIcon} alt="cost Icon" className="w-24 h-24" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-center text-tertiary">
+                    Cost effective operations
+                  </h3>
+                  <p className="mt-14 mb-10 text-xl leading-10 text-neutral-600 max-md:my-10">
+                    Our every activity is strategically designed to prioritize
+                    cost savings, ensuring optimal results for our clients.
+                  </p>
+                </div>
+              </div>
+            </article>
             <article className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow justify-center self-stretch max-md:mt-10 max-md:max-w-full">
                 <div className="flex flex-col px-10 pt-10 pb-20 bg-white rounded-xl border border-solid drop-shadow-lg shadow-black border-neutral-300 max-md:px-5 max-md:max-w-full">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src={diversityIcon}
+                      alt="cost Icon"
+                      className="w-24 h-24"
+                    />
+                  </div>
                   <h3 className="self-center text-4xl font-bold text-center text-tertiary">
                     Diversity
                   </h3>

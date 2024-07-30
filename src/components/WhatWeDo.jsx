@@ -32,17 +32,15 @@ const WhatWeDo = () => {
                   <h3 className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
                     We build your team
                   </h3>
-                  <p className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
-                    <ul className="list-disc list-inside">
-                      <li>
-                        NextBẹwẹ can help you build customized remote teams.
-                      </li>
-                      <li>
-                        We take care of sourcing, recruitment, onboarding, and
-                        follow-up later to ensure your goals are met on time.
-                      </li>
-                    </ul>
-                  </p>
+                  <ul className="mt-8 text-xl leading-8 text-neutral-600 list-disc list-inside max-md:mt-10 max-md:text-base">
+                    <li>
+                      NextBẹwẹ can help you build customized remote teams.
+                    </li>
+                    <li>
+                      We take care of sourcing, recruitment, onboarding, and
+                      follow-up later to ensure your goals are met on time.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </article>
@@ -59,15 +57,13 @@ const WhatWeDo = () => {
                   <h3 className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
                     We run your operations
                   </h3>
-                  <p className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
-                    <ul className="list-disc list-inside">
-                      <li>We handle all your operational heavy lifting</li>
-                      <li>
-                        You can have more time to focus on developing new
-                        products and services.
-                      </li>
-                    </ul>
-                  </p>
+                  <ul className="mt-8 text-xl leading-8 text-neutral-600 list-disc list-inside max-md:mt-10 max-md:text-base">
+                    <li>We handle all your operational heavy lifting</li>
+                    <li>
+                      You can have more time to focus on developing new products
+                      and services.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </article>
@@ -84,14 +80,12 @@ const WhatWeDo = () => {
                   <h3 className="self-center text-4xl font-bold text-center text-sky-800 mt-4 max-md:text-2xl">
                     You scale without limits
                   </h3>
-                  <p className="mt-8 text-xl leading-8 text-neutral-600 max-md:mt-10 max-md:text-base">
-                    <ul className="list-disc list-inside">
-                      <li>
-                        Quickly scale your team up or down according to your
-                        business needs.
-                      </li>
-                    </ul>
-                  </p>
+                  <ul className="mt-8 text-xl leading-8 text-neutral-600 list-disc list-inside max-md:mt-10 max-md:text-base">
+                    <li>
+                      Quickly scale your team up or down according to your
+                      business needs.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </article>
