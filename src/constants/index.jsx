@@ -11,21 +11,21 @@ import Icon3 from "../assets/Icon3.png";
 import Icon4 from "../assets/Icon4.png";
 
 export const navItems = [
-  { label: "About Us", href: "about" },
+  { label: "About Us", href: "/about" },
   {
     label: "Services",
-    href: "services",
+    href: "/services",
     subItems: [
-      { label: "Remote Teams", href: "remote-teams" },
-      { label: "Build Operate Transfer", href: "build-operate-transfer" },
-      { label: "Managed Services", href: "managed-services" },
-      { label: "Market Entry Program", href: "market-entry-program" },
+      { label: "Remote Teams", href: "/remote-teams" },
+      { label: "Build Operate Transfer", href: "/build-operate-transfer" },
+      { label: "Managed Services", href: "/managed-services" },
+      { label: "Market Entry Program", href: "/market-entry-program" },
     ],
   },
-  { label: "Careers", href: "careers" },
-  { label: "FAQS", href: "faqs" },
-  { label: "Blog", href: "blog" },
-  { label: "Contact Us", href: "contact" },
+  { label: "Careers", href: "/careers" },
+  { label: "FAQS", href: "/faqs" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 export const testimonials = [
