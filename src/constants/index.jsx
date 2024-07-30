@@ -10,11 +10,8 @@ import Icon2 from "../assets/Icon2.png";
 import Icon3 from "../assets/Icon3.png";
 import Icon4 from "../assets/Icon4.png";
 
-// import { Icon, Icon2, Icon3, Icon4 } from "../assets";
-
 export const navItems = [
   { label: "About Us", href: "about" },
-  // { label: "Services", href: "services" },
   {
     label: "Services",
     href: "services",
