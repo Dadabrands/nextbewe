@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { MoveRight } from "lucide-react";
+import Carousel from "../components/Carousel";
 import WhatWeDoBg from "../assets/Whatwedobg.png";
 
 const Careers = () => {
@@ -24,6 +25,9 @@ const Careers = () => {
               act as leaders, we create a dynamic and innovative environment.
             </p>
           </div>
+        </div>
+        <div className="mb-10">
+          <Carousel />
         </div>
 
         <div className="flex justify-center items-center px-16 py-20 w-full bg-blue-950 max-md:px-5 max-md:max-w-full">
