@@ -15,18 +15,18 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/remote-teams" element={<RemoteTeams />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="remote-teams" element={<RemoteTeams />} />
         <Route
-          path="/build-operate-transfer"
+          path="build-operate-transfer"
           element={<BuildOperateTransfer />}
         />
-        <Route path="/managed-services" element={<ManagedServices />} />
-        <Route path="/market-entry-program" element={<MarketEntryProgram />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/faqs" element={<Faqs />} />
+        <Route path="managed-services" element={<ManagedServices />} />
+        <Route path="market-entry-program" element={<MarketEntryProgram />} />
+        <Route path="careers" element={<Careers />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="faqs" element={<Faqs />} />
       </Routes>
     </Router>
   );
