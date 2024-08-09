@@ -1,0 +1,59 @@
+.ping-container {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  pointer-events: auto; /* Allow interactions */
+}
+
+.ping-button {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ping {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(
+    14,
+    165,
+    233,
+    0.75
+  ); /* sky-400 color with 75% opacity */
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.dot {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(14, 165, 233, 1); /* sky-500 color */
+  border-radius: 50%;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.ping-button:hover .ping {
+  background-color: rgba(14, 165, 233, 0.9); /* Slightly darker on hover */
+}

@@ -1,8 +1,8 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import TextImageSection from "../components/TextImageSection";
-import RemoteTeam1 from "../assets/Remoteteams1.png";
-import RemoteTeam2 from "../assets/handsTyping.jpg";
+import RemoteTeam1 from "../assets/Remoteteam1.png";
+import RemoteTeam2 from "../assets/Remoteteam2.png";
 const RemoteTeams = () => {
   return (
     <div>

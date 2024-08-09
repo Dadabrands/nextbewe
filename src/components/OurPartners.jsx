@@ -57,7 +57,7 @@
 
 // export default OurPartners;
 
-import Hamlet from "../assets/Hamlet.png";
+import ind from "../assets/ind.png";
 import Mediamint from "../assets/mediamint.png";
 import Rythmos from "../assets/rythmos.png";
 import Pivox from "../assets/Pivox.png";
@@ -68,7 +68,7 @@ const OurPartners = () => {
   return (
     <div className="px-4 py-16 mx-auto max-w-screen-xl">
       <div className="text-6xl font-bold tracking-widest text-center text-sky-800 mb-12 max-md:text-4xl">
-        Our Partners
+        Our Partners/Clients
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         <img
@@ -85,9 +85,9 @@ const OurPartners = () => {
         />
         <img
           loading="lazy"
-          src={Hamlet}
-          className="w-52 h-20 max-w-full aspect-[0.85] object-contain"
-          alt="Hamlet"
+          src={ind}
+          className=" mt-3 w-52 h-20 max-w-full aspect-[0.85] object-contain"
+          alt="IndConsulting Logo"
         />
         <img
           loading="lazy"

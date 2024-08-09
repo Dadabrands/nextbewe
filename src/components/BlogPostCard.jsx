@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom"; // If you're using React Router for navigation
 import { BlogItems } from "../constants";
 

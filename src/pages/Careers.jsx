@@ -1,7 +1,7 @@
-import Footer from "../components/Footer";
+import Footer2 from "../components/Footer2";
 import Navbar from "../components/Navbar";
 import { MoveRight } from "lucide-react";
-import Carousel from "../components/Carousel";
+import CarouselImg2 from "../assets/2.png";
 import WhatWeDoBg from "../assets/Whatwedobg.png";
 
 const Careers = () => {
@@ -26,8 +26,13 @@ const Careers = () => {
             </p>
           </div>
         </div>
-        <div className="mb-10">
-          <Carousel />
+        {/* Centered Image Section */}
+        <div className="flex justify-center items-center my-10">
+          <img
+            src={CarouselImg2}
+            alt="Carousel Image"
+            className="max-w-full rounded-lg"
+          />
         </div>
 
         <div className="flex justify-center items-center px-16 py-20 w-full bg-blue-950 max-md:px-5 max-md:max-w-full">
@@ -137,14 +142,14 @@ const Careers = () => {
           </div>
 
           <div className="flex justify-center px-4 py-7 mt-8 max-w-full text-2xl tracking-wide rounded-2xl bg-sky-800 bg-opacity-10 w-[300px] max-md:px-3">
-            <div className="flex gap-3 items-center flex-wrap">
+            <a href="contact" className="flex gap-3 items-center flex-wrap">
               <span>Contact Us</span>
               <MoveRight />
-            </div>
+            </a>
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer2 />
     </>
   );
 };

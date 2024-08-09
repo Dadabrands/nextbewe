@@ -1,8 +1,8 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import TextImageSection from "../components/TextImageSection";
-import RemoteTeam1 from "../assets/Remoteteams1.png";
-import RemoteTeam2 from "../assets/workersTyping.jpg";
+import BOT2 from "../assets/bot2.jpg";
+import BOT from "../assets/BOT.jpg";
 
 const BuildOperateTransfer = () => {
   return (
@@ -11,7 +11,7 @@ const BuildOperateTransfer = () => {
       <TextImageSection
         title="Build Operate Transfer"
         paragraph="NextBewe BOT service offers a comprehensive solution for businesses looking to establish Global Capability Centres (GCCs). Our experts guide you through every step of the process, right from site selection to infrastructure setup to talent acquisition and operational management."
-        imagePath={RemoteTeam1}
+        imagePath={BOT}
         reverse={true}
       />
       <TextImageSection
@@ -41,7 +41,7 @@ const BuildOperateTransfer = () => {
             </li>
           </ul>
         }
-        imagePath={RemoteTeam2}
+        imagePath={BOT2}
         reverse={false}
       />
       <Footer />

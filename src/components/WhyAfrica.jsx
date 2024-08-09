@@ -62,6 +62,7 @@
 // };
 
 // export default WhyAfrica;
+
 import MapBg from "../assets/MapBg.png";
 
 const WhyAfrica = () => {
@@ -95,37 +96,39 @@ const WhyAfrica = () => {
                   <li className="flex items-start gap-3 mb-5">
                     <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
                     <p className="text-base">
-                      Africa is the second largest continent.
+                      Skilled workforce and available talent pool.
                     </p>
                   </li>
                   <li className="flex items-start gap-3 mb-5">
                     <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
                     <p className="text-base">
-                      Access to French talent in neighbouring countries.
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3 mb-5">
-                    <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
-                    <p className="text-base">
-                      Nigeria is one of the largest English-speaking countries
-                      in the world.
-                    </p>
-                  </li>
-                  <li className="flex items-start gap-3 mb-5">
-                    <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
-                    <p className="text-base">Stable Government.</p>
-                  </li>
-                  <li className="flex items-start gap-3 mb-5">
-                    <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
-                    <p className="text-base">
-                      Up to 50% lower costs compared to India and the
+                      Lowest operating costs up to 50% lower than India or the
                       Philippines.
                     </p>
                   </li>
                   <li className="flex items-start gap-3 mb-5">
                     <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
                     <p className="text-base">
-                      Africa is a hub for technology, fashion, and
+                      Access to French, Portuguese and Arabic talent.
+                    </p>
+                  </li>
+                  <li className="flex items-start gap-3 mb-5">
+                    <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
+                    <p className="text-base">
+                      Nigeria & Kenya are amongst the largest English-speaking
+                      countries in the world.
+                    </p>
+                  </li>
+                  <li className="flex items-start gap-3 mb-5">
+                    <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
+                    <p className="text-base">
+                      Stable and favourable policies and labour laws.
+                    </p>
+                  </li>
+                  <li className="flex items-start gap-3 mb-5">
+                    <div className="w-6 h-6 bg-sky-800 rounded-full flex-shrink-0" />
+                    <p className="text-base">
+                      Lagos & Nairobi are hubs for technology, fashion, and
                       entertainment.
                     </p>
                   </li>

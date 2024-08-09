@@ -9,6 +9,12 @@ import Icon from "../assets/Icon.png";
 import Icon2 from "../assets/Icon2.png";
 import Icon3 from "../assets/Icon3.png";
 import Icon4 from "../assets/Icon4.png";
+import bp3 from "../assets/bp3.png";
+import bp1 from "../assets/bp1.png";
+import bp2 from "../assets/bp2.png";
+import bp6 from "../assets/bp6.png";
+import bp4 from "../assets/bp4.png";
+import bp5 from "../assets/bp5.png";
 
 export const navItems = [
   { label: "About Us", href: "/about" },
@@ -168,7 +174,7 @@ export const privacyLinks = [{ href: "#", text: "Privacy Policy" }];
 export const BlogItems = [
   {
     id: 1,
-    imageSrc: "https://picsum.photos/800/800",
+    imageSrc: bp3,
     category: "Cost Effective Solutions",
     date: "July 10, 2024",
     link: "/page1",
@@ -177,7 +183,7 @@ export const BlogItems = [
   },
   {
     id: 2,
-    imageSrc: "https://picsum.photos/800/801",
+    imageSrc: bp1,
     category: "Access to Skilled Talents",
     date: "July 15, 2024",
     link: "/page2",
@@ -186,7 +192,7 @@ export const BlogItems = [
   },
   {
     id: 3,
-    imageSrc: "https://picsum.photos/800/802",
+    imageSrc: bp2,
     category: "Innovative Approaches",
     date: "August 1, 2024",
     link: "/page3",
@@ -195,7 +201,7 @@ export const BlogItems = [
   },
   {
     id: 4,
-    imageSrc: "https://picsum.photos/800/803",
+    imageSrc: bp6,
     category: "Expert Guidance",
     date: "August 15, 2024",
     link: "/page4",
@@ -204,7 +210,7 @@ export const BlogItems = [
   },
   {
     id: 5,
-    imageSrc: "https://picsum.photos/800/804",
+    imageSrc: bp4,
     category: "Creative Solutions",
     date: "September 1, 2024",
     link: "/page5",
@@ -213,7 +219,7 @@ export const BlogItems = [
   },
   {
     id: 6,
-    imageSrc: "https://picsum.photos/800/805",
+    imageSrc: bp5,
     category: "Strategic Planning",
     date: "September 15, 2024",
     link: "/page6",
